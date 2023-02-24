@@ -18,7 +18,7 @@
  import NavbarLogo from '@theme/Navbar/Logo';
  import NavbarSearch from '@theme/Navbar/Search';
  
-import Avatar from '@site/src/components/Avatar'
+
  import styles from './styles.module.css';
  
  function useNavbarItems() {
@@ -76,7 +76,7 @@ import Avatar from '@site/src/components/Avatar'
          <>
            <NavbarItems items={rightItems} />
            <NavbarColorModeToggle className={styles.colorModeToggle} />
-           <Avatar />
+          
            {!searchBarItem && (
              <NavbarSearch>
                <SearchBar />

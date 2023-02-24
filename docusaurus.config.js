@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Das Chagas Reno',
-  tagline: 'Renovation de fenêtres',
+  tagline: 'Installation et rénovation de vos fenêtres en Ile de France',
   url: 'https://lDC-Reno.github.io',
   baseUrl: '/produits/',
   onBrokenLinks: 'throw',
@@ -43,34 +43,28 @@ const config = {
     ({
       navbar: {
         title: 'DC Reno',
-        logo: {
+      /*  logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
-        },
-      /*  items: [
+        },*/
+       items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'pvc-ecrin',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Produits',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/DC-Reno/produits',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],*/
+        ],
       },
       footer: {
         style: 'dark',
-        /*links: [
+        links: [
           {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Produits',
+                to: '/docs/pvc-ecrin',
               },
             ],
           },
@@ -87,7 +81,7 @@ const config = {
               },
             ],
           },
-        ],*/
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} Das Chagas RENO.`,
       },
       prism: {

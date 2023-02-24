@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="mailto:contact@daschagas.com">
+            to="mailto:chagasito@hotmail.com">
             Contact
           </Link>
         </div>
@@ -29,8 +29,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Installation et rénovation de vos fenêtres en Ile de France">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

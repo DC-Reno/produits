@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
@@ -8,7 +9,8 @@ const FeatureList = [
     img: '/produits/img/fenetre-pvc-evasion-1595402417.jpg',
     description: (
       <>
-        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+        Une fenêtre PVC qui associe esthétisme et très bonne isolation thermique
+       
       </>
     ),
   },
@@ -17,7 +19,7 @@ const FeatureList = [
     img: '/produits/img/pvc-ecrin.jpeg',
     description: (
       <>
-        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+        La fenêtre PVC avec un rapport Qualité/Prix Optimal !
       </>
     ),
   },
@@ -32,6 +34,11 @@ function Feature({ img, title, description }) {
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+        <Link
+            className=""
+            to="/docs/pvc-ecrin">
+            Découvrir
+          </Link>
       </div>
     </div>
   );
