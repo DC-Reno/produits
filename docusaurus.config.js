@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docusaurus Firebase LMS',
-  tagline: 'LMS made simple',
-  url: 'https://learn-map.github.io',
-  baseUrl: '/docusaurus-lms/',
+  title: 'Das Chagas Reno',
+  tagline: 'Renovation de fenêtres',
+  url: 'https://lDC-Reno.github.io',
+  baseUrl: '/produits/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'learn-map',
-  projectName: 'docusaurus-lms', 
+  organizationName: 'dc-reno',
+  projectName: 'produits', 
   presets: [
     [
       'classic',
@@ -23,13 +23,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/learn-map/docusaurus-lms/tree/master/',
+          editUrl: 'https://github.com/DC-Reno/produits/tree/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/learn-map/docusaurus-lms/tree/master/',
+            'https://github.com/DC-Reno/produits/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -42,12 +42,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'LMS Demo',
+        title: 'DC Reno',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
-        items: [
+      /*  items: [
           {
             type: 'doc',
             docId: 'intro',
@@ -56,15 +56,15 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/learn-map/docusaurus-lms',
+            href: 'https://github.com/DC-Reno/produits',
             label: 'GitHub',
             position: 'right',
           },
-        ],
+        ],*/
       },
       footer: {
         style: 'dark',
-        links: [
+        /*links: [
           {
             title: 'Docs',
             items: [
@@ -83,12 +83,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/learn-map/docusaurus-lms',
+                href: 'https://github.com/DC-Reno/produits',
               },
             ],
           },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        ],*/
+        copyright: `Copyright © ${new Date().getFullYear()} Das Chagas RENO.`,
       },
       prism: {
         theme: lightCodeTheme,

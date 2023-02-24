@@ -4,42 +4,30 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Fenêtre PVC EVASION',
+    img: '/produits/img/fenetre-pvc-evasion-1595402417.jpg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Fenêtre PVC Ecrin',
+    img: '/produits/img/pvc-ecrin.jpeg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
       </>
     ),
   },
 ];
 
-function Feature({ Svg, title, description }) {
+function Feature({ img, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        <img className={styles.featureSvg} alt={title} src={img} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
