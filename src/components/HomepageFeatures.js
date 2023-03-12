@@ -6,7 +6,8 @@ import Link from '@docusaurus/Link';
 const FeatureList = [
   {
     title: 'Fenêtre PVC EVASION',
-    img: '/produits/img/fenetre-pvc-evasion-1595402417.jpg',
+    img: '/img/fenetre-pvc-evasion-1595402417.jpg',
+    link: '/docs/pvc-evasion',
     description: (
       <>
         Une fenêtre PVC qui associe esthétisme et très bonne isolation thermique
@@ -16,7 +17,8 @@ const FeatureList = [
   },
   {
     title: 'Fenêtre PVC Ecrin',
-    img: '/produits/img/pvc-ecrin.jpeg',
+    img: '/img/pvc-ecrin.jpeg',
+    link: '/docs/pvc-ecrin',
     description: (
       <>
         La fenêtre PVC avec un rapport Qualité/Prix Optimal !
@@ -25,9 +27,9 @@ const FeatureList = [
   },
 ];
 
-function Feature({ img, title, description }) {
+function Feature({ img, title, description, link }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--6')}>
       <div className="text--center">
         <img className={styles.featureSvg} alt={title} src={img} />
       </div>
@@ -36,7 +38,7 @@ function Feature({ img, title, description }) {
         <p>{description}</p>
         <Link
             className=""
-            to="/docs/pvc-ecrin">
+            to={link}>
             Découvrir
           </Link>
       </div>

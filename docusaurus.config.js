@@ -59,28 +59,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Produits',
-                to: '/docs/pvc-ecrin',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/DC-Reno/produits',
-              },
-            ],
-          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Das Chagas RENO.`,
       },
