@@ -43,10 +43,10 @@ const config = {
     ({
       navbar: {
         title: 'DC Reno',
-      /*  logo: {
+        logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },*/
+          src: 'img/window.png',
+        },
        items: [
           {
             type: 'doc',
