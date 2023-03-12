@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Das Chagas Reno',
   tagline: 'Installation et rénovation de vos fenêtres en Ile de France',
-  url: 'http://www.dc-fenetres.fr/',
+  url: 'https://DC-Reno.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
